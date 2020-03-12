@@ -1,0 +1,35 @@
+body { 
+    background:width 100%; border : 3px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    text-align: center;
+    width:100%;
+}
+tr#mycv{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px
+}
+tr#contact{
+    background-color:rgb(240, 240, 240);
+}
+tr#summary{
+    background-color:rgb(236, 236, 236);
+}
+tr#education{
+    background-color:rgb(235, 235, 235);
+}
+tr#hobbies{
+    background-color:rgb(233, 233, 233);
+   
+}
+tr#ref{
+    background-color: rgb(231, 231, 231);
+}
+
+.references{
+    display: flex;
+}
+.ref{
+    display: -webkit-inline-flex;
+}
